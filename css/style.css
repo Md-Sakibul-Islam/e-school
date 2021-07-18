@@ -40,6 +40,14 @@ text-align: center;
     margin-top: 20px;
    
 }
+.course-title{
+    font-size: 36px;
+    font-weight: bold;
+    color: #413960;
+}
+.desig{
+    font-size: 12px;
+}
 .card-text{
     font-size: 12px;
     text-align: center;
@@ -47,4 +55,16 @@ text-align: center;
 .card-img-top{
     width: 66px;
     height: 66px;
+}
+
+.time-text{
+    font-size: 12px;
+}
+.card-subject{
+    padding: 10px;
+    width: 370px;
+    height: 380px;
+    background: #FFFFFF;
+box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+border-radius: 18px;
 }
