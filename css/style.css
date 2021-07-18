@@ -1,86 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* 
+ ----------------------------------
+ logo/ navbar /btn-color style start 
+ ----------------------------------
+  */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-body{
-    font-family: 'Poppins', sans-serif;
+.logo {
+  width: 200px;
+  height: 59px;
+}
+.nav-item a {
+  font-size: 20px;
+  margin-left: 38px;
+}
+.btn-color {
+  font-size: 16px;
+  padding: 8px 28px;
+  border-radius: 30px;
+  background: #21b573;
+  color: white;
+  width: 110px;
+  text-align: center;
+}
+/* 
+ ----------------------------------
+ logo/ navbar /btn-color  style end 
+ ----------------------------------
+  */
+
+/* 
+ -------------------------------------------------------------------
+ carosuel / text / designation / course time/ card/footer style start 
+ -------------------------------------------------------------------
+  */
+
+.course-titile {
+  font-size: 50px;
+}
+.get-started {
+  margin-left: 100px;
+}
+.text-color {
+  color: #21b573;
+}
+.carousel-title {
+  color: #fd511a;
+}
+.card {
+  width: 200px;
+  height: 210px;
+  background: #ffffff;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.course-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #413960;
 }
 
-.logo{
-    width: 200px;
-    height: 59px;
+.designation {
+  font-size: 12px;
 }
-.nav-item a{
-    font-size: 20px;
-    margin-left: 38px;
+.card-text {
+  font-size: 12px;
+  text-align: center;
 }
-.btn-color{
-font-size: 16px;
-padding: 8px 28px;
-border-radius: 30px;
-background: #21B573;
-color: white;
-width: 110px;
-text-align: center;
-
-}
-.course-titile{
-    font-size: 50px;
-}
-.text-color{
-    color: #21B573;
-}
-.slogan{
-    color: #FD511A;
-}
-.card{
-    width: 200px;
-    height: 210px;
-    background: #FFFFFF;
-    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    margin-top: 20px;
-   
-}
-.course-title{
-    font-size: 36px;
-    font-weight: bold;
-    color: #413960;
-}
-.desig{
-    font-size: 12px;
-}
-.card-text{
-    font-size: 12px;
-    text-align: center;
-}
-.card-img-top{
-    width: 66px;
-    height: 66px;
+.card-img-top {
+  width: 66px;
+  height: 66px;
 }
 
-.time-text{
-    font-size: 12px;
+.time-text {
+  font-size: 12px;
 }
-.card-subject{
-    padding: 10px;
-    width: 370px;
-    height: 380px;
-    background: #FFFFFF;
-box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
-border-radius: 18px;
+.card-subject {
+  padding: 10px;
+  width: 370px;
+  height: 380px;
+  background: #ffffff;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
 }
-.testimonials h2{
-    font-size: 36px;
-    color: #000000;
-    font-weight: bold;
-    text-align: justify;
+.testimonials-part {
+  margin-bottom: 150px !important;
 }
-.testimoni-img img{
-    width: 120px;
-    height: 120px;
+.testimonials h2 {
+  font-size: 36px;
+  color: #000000;
+  font-weight: bold;
+  text-align: justify;
 }
-.course-items a{
-text-decoration: none;
-color: white;
-font-size: 13px;
-line-height:33px;
+.testimoni-img img {
+  width: 120px;
+  height: 120px;
 }
+.course-items a {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  line-height: 33px;
+}
+
+.footer-title {
+  font-size: 14px;
+}
+
+/* 
+ -------------------------------------------------------------------
+ carosuel / text / designation / course time/ card/footer style end 
+ -------------------------------------------------------------------
+  */
